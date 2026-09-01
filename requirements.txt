@@ -1,0 +1,7 @@
+ultralytics>=8.2.0        # YOLOv8 training + inference
+opencv-python>=4.9.0      # video/camera capture, HUD rendering
+numpy>=1.26.0
+pygame>=2.5.0             # low-latency beep audio
+pyyaml>=6.0
+# Optional, only needed for real OBD-II vehicle speed integration:
+# python-obd>=0.7.1
