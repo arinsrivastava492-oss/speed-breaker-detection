@@ -57,7 +57,7 @@ def train(
         val=True,
         plots=True,
         save=True,
-        device=0,               # GPU 0; set to "cpu" if no GPU available
+        device="mps",               # GPU 0; set to "cpu" if no GPU available
     )
 
     # Run validation explicitly and print key accuracy metrics
